@@ -1,0 +1,83 @@
+html, body{
+  margin:0;
+  padding: 0;
+  background-color: #242124;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main--container{
+  margin: 100px;
+}
+button{
+  margin: 50px;
+  font-size: 45px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffc914;
+  box-shadow: black 5px 10px 25px;
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.resetButton{
+  margin: 10px;
+  font-size: 35px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e4572e;
+  box-shadow: black 5px 10px 25px;
+}
+
+.resetButton:hover{
+  cursor: pointer;
+  opacity: 0.9; 
+}
+
+.counter--container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  font-size: 50px;
+  padding: 50px;
+  font-weight: bold;
+  box-shadow: black 5px 5px 15px;
+  width: 650px;
+  background-color: #048ba8;
+  position: relative;
+  color: white;
+  z-index: 1;
+}
+.counter--border{
+  border: white solid 3px;
+  width: 825px;
+  padding: 30px;
+  z-index: 2;
+  position: relative;
+}
+.sih--div--green{
+  position: relative;
+  background-color: #ffc914;
+  height: 250px;
+  width: 400px;
+  z-index: 0;
+  margin-top: -200px;
+  margin-left: -25px;
+}
+.sih--div--orange{
+  background-color: #e4572e;
+  height: 250px;
+  width: 400px;
+  z-index: 0;
+  margin-left: 518px;
+  position: relative;
+  margin-top: -562px;
+}
