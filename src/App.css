@@ -63,7 +63,7 @@ button:hover{
   z-index: 2;
   position: relative;
 }
-.sih--div--green{
+.sih--div--yellow{
   position: relative;
   background-color: #ffc914;
   height: 250px;
@@ -79,63 +79,85 @@ button:hover{
   z-index: 0;
   margin-left: 518px;
   position: relative;
-  margin-top: -562px;
+  margin-top: -642px;
 }
 
 /* Media Queries */
 
 @media screen and (min-width: 320px) and (max-width: 600px){
   .counter--container{
-    margin: 30px 30px 30px 150px;
+    margin: 30px 30px 30px 30px;
     padding: 50px;
-    width: 380px;
+    width: 350px;
+    height: 250px;
+    font-size: 30px;
   }
   .main--container{
-    margin: 100px;
-    margin-right: 50px; 
+    margin: 100px 300px 200px 660px;
   }
   .counter--border{
     width: 610px;
-    margin: 30px 30px 30px 100px;
+    margin: 30px 180px 30px 30px;
   }
-  .sih--div--green{
+  button{
+    margin: 50px;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .resetButton{
+    margin: 10px;
+    font-size: 25px;
+    padding: 10px;
+  }
+  .sih--div--yellow{
     height: 200px;
-    width: 300px;
+    width: 250px;
     margin-top: -200px;
-    margin-left: 155px;
+    margin-left: 150px;
   }
   .sih--div--orange{
     height: 200px;
-    width: 300px;
-    margin-left: 618px;
+    width: 250px;
+    margin-left: 518px;
     margin-top: -562px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
   .counter--container{
-    margin: 30px 30px 30px 100px;
+    margin: 30px 30px 30px 30px;
     padding: 50px;
-    width: 550px;
+    width: 500px;
+    height: 350px;
+    font-size: 50px;
   }
   .main--container{
-    margin: 100px;
-    margin-right: 50px; 
+    margin: 100px 300px 200px 660px;
   }
   .counter--border{
-    width: 810px;
-    margin: 30px 30px 30px 100px;
+    width: 610px;
+    margin: 30px 190px 30px 170px;
   }
-  .sih--div--green{
+  button{
+    margin: 50px;
+    font-size: 35px;
+    padding: 20px;
+  }
+  .resetButton{
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .sih--div--yellow{
     height: 200px;
-    width: 300px;
+    width: 250px;
     margin-top: -200px;
-    margin-left: 155px;
+    margin-left: 150px;
   }
   .sih--div--orange{
     height: 200px;
-    width: 300px;
+    width: 250px;
     margin-left: 618px;
-    margin-top: -562px;
+    margin-top: -642px;
   }
 }

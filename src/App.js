@@ -34,7 +34,7 @@ class App extends Component {
             <button className="resetButton" onClick={this.resetCounter}>Reset</button>
           </div>
         </div>
-        <div className="sih--div--green"></div>
+        <div className="sih--div--yellow"></div>
         <div className="sih--div--orange"></div>
       </div>
     );
